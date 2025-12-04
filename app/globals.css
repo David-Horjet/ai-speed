@@ -1,11 +1,9 @@
 @import "tailwindcss";
 
-/* Font families */
 :root {
   --font-inter: "Inter", "Helvetica Neue", "Helvetica", sans-serif;
   --font-glitch: "Rubik Glitch", cursive;
 
-  /* Colors (hex only) */
   --background: #f2f2f7;
   --foreground: #232325;
   --primary: #090909;
@@ -13,14 +11,12 @@
   --text-muted: #556b7d;
 }
 
-/* Apply global typography */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter);
 }
 
-/* Utility classes for easy font usage */
 .font-glitch {
   font-family: var(--font-glitch);
 }

@@ -7,12 +7,10 @@ import CountUp from "@/lib/countup"
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#f2f2f7] overflow-hidden">
-      {/* Background pattern */}
       <div className="absolute inset-0 backdrop-blur-[100%] min-h-screen">
         <Image src="/images/vector-201.png" alt="background" fill className="object-cover" quality={100} />
       </div>
 
-      {/* Navigation */}
       <nav className="
     fixed right-0 left-0 top-0 z-40 flex items-center justify-between
     px-4 md:px-8 lg:px-16 xl:px-24 py-4
@@ -57,12 +55,9 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <div className="pt-36 px-4 md:px-8 lg:px-16 xl:px-24 flex flex-col lg:flex-row items-center w-full overflow-y-auto">
         <div className="w-full lg:w-1/2 gap-8 md:gap-12 items-center">
-          {/* Left Content */}
           <div className="flex flex-col text-center lg:text-left justify-center space-y-6">
-            {/* Main Heading */}
             <div className="space-y-3">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#00000080] leading-tight uppercase">Human Insight <br /> <span className="inline-block w-8 md:w-12 lg:w-14">
                 <Image
@@ -76,12 +71,10 @@ export default function Home() {
               </span> AI <span className="font-glitch font-medium text-black">Speed</span> </h1>
             </div>
 
-            {/* Subheading */}
             <p className="text-lg md:text-xl lg:text-2xl text-[#00000080] font-medium leading-relaxed">
               Achieve unmatched velocity in your workflow <br /> without ever compromising on strategic quality.
             </p>
 
-            {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-4 mb-16 md:mb-24">
               <Button variant="darkGradient"
                 size="md">
@@ -129,7 +122,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Right Image */}
         <div className="absolute top-28 right-0 hidden lg:flex items-center justify-center">
           <Image
             src="/images/hand-globe.png"
